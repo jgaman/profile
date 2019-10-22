@@ -1,0 +1,48 @@
+body {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 300;
+  line-height: 30px;
+  background-color: #D0D6D6;
+  color: rgb(10, 10, 10);
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  line-height: 50px;
+}
+a:hover {
+  color: #8C8A9D;
+}
+
+img {
+  border-radius: 50%;
+}
+
+text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
